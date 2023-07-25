@@ -8,12 +8,13 @@ body{
 }
 h1{
     font-size: 50px;
+    
 }
-section{
+
+.flexible{
     display: flex;
-    margin-left: 50px ;
-    margin-right: 50px;
-    margin-bottom: ;
+   
+    margin-bottom: 100px;
 }
 .half-width{
 
@@ -28,13 +29,70 @@ section{
 
     padding-bottom: 30px;
 }
+.paragraph-part{
+    padding-left: 50px;
+}
 .link-button{
 color: white;
-background-image: linear-gradient(rgb(255, 165, 0),tomato);
+background-image:  linear-gradient(rgb(255, 165, 0),tomato) ;
 text-decoration: none;
 font-size: 15px;
-border-radius: 15px;
+border-radius: 30px;
 padding: 15px;
+height: 20px;
+width: 50px;
 
 
+}
+.back-ground{
+
+    background-image: url(images/Frame\ 57.jpg);
+}
+.Reciepies-part{
+
+    text-align: center;
+
+}
+.reciepies-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border: 20px solid white;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    
+}
+.reciepies-item img{
+    width: 100%;
+    
+}
+
+.recipies-img{
+
+    border-radius: 20px;
+}
+.social-media{
+    box-shadow: 10px 10px 10px grey;
+    margin-bottom: 100px;
+    border-radius:20px ;
+    margin-bottom: 100px;
+
+
+
+}
+.Social{
+
+    display: inline-block;
+    padding-left: 200px;
+    
+    
+    
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+ 
 }
